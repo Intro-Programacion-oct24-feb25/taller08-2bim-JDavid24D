@@ -15,6 +15,21 @@ public class Problema03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int contador = 5;
+
+        for (int i = 1; i <= contador; i++) {
+            for (int variable = 1; variable <= i; variable++) {
+                System.out.print("*");
+            }
+              System.out.println();
+        }
+        
+        for (int i = contador - 1; i >= 1; i--) {
+            for (int variable = 1; variable <= i; variable++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
     
 }
